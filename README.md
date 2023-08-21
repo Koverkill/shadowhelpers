@@ -1,7 +1,7 @@
 # shadowhelpers
 Bash wrapper for utilizing AWS CLI in thing management.
 This was written to make it easier to assign a shadow to things within a Thing Group.
-# Available functions
+# Available functions (shadow_helper.sh)
 ``` Bash
 # ./shadow_helper [function] [-o|--options]
 # ./upload_to_S3
@@ -41,4 +41,12 @@ function get_things_in_group_usage() {
     echo "  example    : ./shadow_helper get_things_in_group -g NewDeviceGroup -o NewDeviceThings.txt"
     echo
 }
+```
+# Available functions (utils.sh)
+A few wrappers that might be added to the shadow helper script later.
+``` Bash
+./add_thing_to_group
+./delete_thing_from_group
+./get_shadow
+./update_shadow
 ```
