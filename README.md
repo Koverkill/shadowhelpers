@@ -2,13 +2,13 @@
 Bash wrapper for utilizing AWS CLI in thing management.
 This was written to make it easier to assign a shadow to things within a Thing Group.
 # Available functions
-./shadow_helper [function] [-o|--options]
-./upload_to_S3
-./update_thing_shadow
-./update_group_shadow
-./get_things_in_group
-
 ``` Bash
+# ./shadow_helper [function] [-o|--options]
+# ./upload_to_S3
+# ./update_thing_shadow
+# ./update_group_shadow
+# ./get_things_in_group
+
 function upload_to_S3_usage() {
     echo "upload_to_S3"
     echo "  description: Upload a file to an S3 bucket."
